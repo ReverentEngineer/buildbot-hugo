@@ -1,4 +1,5 @@
 from buildbot.process.buildstep import ShellMixin, LoggingBuildStep
+from twisted.internet import defer
 
 class Hugo(ShellMixin, LoggingBuildStep):
     """BuildStep for buildbot that runs huge.
