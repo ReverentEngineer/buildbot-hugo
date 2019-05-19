@@ -20,7 +20,7 @@ Requirements
 
 Required packages include: buildbot
 
-How to run
+How to use
 -------------
 
 .. code-block:: python
